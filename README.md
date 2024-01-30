@@ -1,5 +1,5 @@
 # Read Me Generator
-By Eric Risher, Rita Zurabian, Zack, and Maymi Sarr
+By Eric Risher, Rita Zurabian, Zack Koford, and Maymi Sarr
 
 ## Table of contents
 <!-- - [Purpose](#Purpose) -->
