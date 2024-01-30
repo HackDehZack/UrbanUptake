@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="/client/src/App.css" rel="stylesheet" />
+  <meta name="theme-color" content="#4B67A1" />
+  <meta name="description" content="A marketplace inspired by Facebook Marketplace, created using create-react-app" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <title>My Marketplace</title>
+</head>
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root">
+    <!-- Marketplace Header -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="/">My Marketplace</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/products.html">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/cart.html">Cart</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/signin.html">Sign In</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/signup.html">Sign Up</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="container">
+        <!-- Search bar -->
+        <form class="form-inline">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+        <div class="shop-buttons">
+          <a href="#" class="btn btn-primary">For You</a>
+          <a href="#" class="btn btn-primary">Favorites</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main content area -->
+    <main>
+      <div class="container">
+        <div class="row">
+          <aside class="col-md-3">
+            <!-- Filters or category listings -->
+            <h2>Categories</h2>
+            <ul class="list-group">
+              <li class="list-group-item">Electronics</li>
+              <li class="list-group-item">Clothing</li>
+              <li class="list-group-item">Home & Garden</li>
+              <li class="list-group-item">Sports</li>
+            </ul>
+          </aside>
+          <section class="col-md-9">
+            <!-- Product listings -->
+            <h2>Featured Products</h2>
+            <div class="card-deck">
+              <div class="card">
+                <img src="product1.jpg" class="card-img-top" alt="Product 1">
+                <div class="card-body">
+                  <h5 class="card-title">Product 1</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.</p>
+                  <a href="#" class="btn btn-primary">Buy Now</a>
+                </div>
+              </div>
+              <div class="card">
+                <img src="product2.jpg" class="card-img-top" alt="Product 2">
+                <div class="card-body">
+                  <h5 class="card-title">Product 2</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer necodio. Praesent libero.</p>
+                  <a href="#" class="btn btn-primary">Buy Now</a>
+                </div>
+              </div>
+              <div class="card">
+                <img src="product3.jpg" class="card-img-top" alt="Product 3">
+                <div class="card-body">
+                  <h5 class="card-title">Product 3</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.</p>
+                  <a href="#" class="btn btn-primary">Buy Now</a>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <!-- Marketplace Footer -->
+    <footer class="bg-light text-center text-lg-start">
+      <div class="container p-4">
+        <!-- Footer content -->
+        <div class="row">
+          <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+            <h5 class="text-uppercase">About</h5>
+            <p>
+              Thou Marketplace is a platform inspired by Facebook Marketplace. It allows users to buy and sell products within their local community.
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Links</h5>
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="/about.html" class="text-dark">About</a>
+              </li>
+              <li>
+                <a href="/contact.html" class="text-dark">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Legal</h5>
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#" class="text-dark">Terms of Use</a>
+              </li>
+              <li>
+                <a href="#" class="text-dark">Privacy Policy</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
