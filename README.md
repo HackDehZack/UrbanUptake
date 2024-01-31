@@ -2,6 +2,8 @@ UrbanUptake
 
 Welcome to the official documentation for UrbanUptake, a collaborative project developed by Zack, Rita, Eric, and Maymi. This documentation will guide you through the features, installation, and usage of UrbanUptake, a Facebook Marketplace clone. UrbanUptake is an interactive MERN Stack Single-Page Application designed to provide a user-focused platform for buying and selling items.
 
+Link to Deployed Application: 
+
 Table of Contents
 Project Overview
 Installation
