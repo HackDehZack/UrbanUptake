@@ -1,0 +1,99 @@
+body {
+    font: 1.6rem helvetica;
+    box-sizing: border-box;
+    background-color: #fdc6ff;
+}
+
+.Login {
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    border-radius: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.UrbanUptakeText {
+    padding: 0;
+    font-size: 5rem;
+    color: #ff31c1;
+    font-weight: 700;
+}
+
+.title {
+    font-size: 2rem;
+    color: #c340ff;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.loginContainer {
+    border: none;
+    height: 23rem;
+    width: 25rem;
+    padding: 1rem;
+    border-radius: 0.7rem;
+    display: block;
+    background-color: #fdc6ff;
+}
+
+input[type=email],
+input[type=password] {
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem 0;
+    box-sizing: border-box;
+    border: 2px solid #ff31c1;
+    border-radius: 0.7rem;
+    background-color: #fdc6ff;
+    color: #c340ff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem 0;
+    box-sizing: border-box;
+    border: 2px solid #ff31c1;
+    border-radius: 0.7rem;
+    background-color: #fdc6ff;
+    color: #c340ff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: #ffb5c8;
+    color: #9c0ba1;
+}
+
+@media only screen and (max-width: 768px) {
+    .UrbanUptakeText {
+        font-size: 3rem;
+    }
+
+    .title {
+        font-size: 1.6rem;
+    }
+
+    .loginContainer {
+        width: 90%;
+        max-width: 100%;
+    }
+
+    input[type=email],
+    input[type=password] {
+        font-size: 1.2rem;
+    }
+
+    button {
+        font-size: 1.2rem;
+    }
+}
