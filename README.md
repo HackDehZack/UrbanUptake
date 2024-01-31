@@ -61,8 +61,6 @@ Zack Koford
 Rita Zurabian
 Maymi Sarr
 
-Support
-If you encounter any issues while using UrbanUptake or have any questions, please contact our support team at support@urbanuptake.com. We strive to provide timely assistance and resolve any problems you may encounter.
 
 License
 UrbanUptake is released under the MIT License. Please refer to the LICENSE file in the repository for more details.
