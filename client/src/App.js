@@ -1,17 +1,17 @@
 import React from 'react';
 import './App.css';
-import { Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import LoginPage from './loginPage/LoginPage';
 import HeaderArea from './HeaderArea/HeaderArea';
 
 function App() {
   return (
-    <div className="App">
+    <BrowserRouter>
       <Routes>
-        <Route path='/LoginPage' exact={true} component={LoginPage} />
-        <Route path='/HeaderArea' exact={true} component={HeaderArea} />
+        <Route path="/LoginPage" element={<LoginPage />} />
+        <Route path="/HeaderArea" element={<HeaderArea />} />
       </Routes>
-    </div>
+    </BrowserRouter>
   );
 }
 
