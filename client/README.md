@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+UrbanUptake
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the official documentation for UrbanUptake, a collaborative project developed by Zack, Rita, Eric, and Maymi. This documentation will guide you through the features, installation, and usage of UrbanUptake, a Facebook Marketplace clone. UrbanUptake is an interactive MERN Stack Single-Page Application designed to provide a user-focused platform for buying and selling items.
 
-## Available Scripts
+Table of Contents
+Project Overview
+Installation
+Usage
+Technologies Used
+Contributors
+Support
+License
+Project Overview
+UrbanUptake is a cutting-edge single-page application developed using the MERN (MongoDB, Express, React, Node.js) stack. It combines a scalable MongoDB back end, a GraphQL API, and an Express.js and Node.js server with a React front end. The application provides a platform for users to browse and post items for sale, facilitating seamless transactions between buyers and sellers.
 
-In the project directory, you can run:
+Installation
+To install UrbanUptake locally, please follow these steps:
 
-### `npm start`
+Clone the repository:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+git clone git@github.com:HackDehZack/UrbanUptake.git
+Navigate to the project directory:
+cd urbanuptake
+Install the required dependencies using a package manager such as npm or yarn:
+npm install
+Set up the environment variables by creating a .env file. Refer to the .env.example file for the required variables.
+Start the development server:
+npm start
+Access the application in your browser at http://localhost:3000.
+Usage
+Upon successfully installing UrbanUptake, you can start exploring the application's features:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Register an account or log in using your credentials.
+Browse items listed by other users.
+Filter and search for specific items based on categories, location, or keywords.
+Post items for sale and provide detailed descriptions along with images.
+Contact sellers through secure messaging for further inquiries.
+Make offers, negotiate prices, and finalize transactions with sellers.
+View your account dashboard for a summary of your listings, transactions, and messages.
+Update your account settings, profile picture, and payment information.
+Enjoy a seamless and user-friendly experience throughout the application.
+Technologies Used
+UrbanUptake utilizes the following technologies:
 
-### `npm test`
+Front-end: React
+Server: Node.js, Express.js
+Database: MongoDB with Mongoose ODM
+API: GraphQL
+Authentication: JSON Web Tokens (JWT)
+Additional tools and libraries include:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+React Router DOM for client-side routing
+Semantic UI for user interface styling
+Stripe for payment integration
+Nodemailer for email notifications
+Contributors
+UrbanUptake was developed by the following contributors:
 
-### `npm run build`
+Eric Risher
+Zack Koford
+Rita Zurabian
+Maymi Sarr
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Support
+If you encounter any issues while using UrbanUptake or have any questions, please contact our support team at support@urbanuptake.com. We strive to provide timely assistance and resolve any problems you may encounter.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+License
+UrbanUptake is released under the MIT License. Please refer to the LICENSE file in the repository for more details.
